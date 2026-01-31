@@ -1,0 +1,44 @@
+@use "../const" as cn;
+
+.about {
+    width: 90%;
+    min-height: 900px;
+    border-radius: 20px;
+    margin: 80px auto;
+    color: #fff;
+    background-color: cn.$color-core;
+}
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 0;
+}
+.about-desc {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    overflow: hidden;
+    & > span {
+        font-weight: bold;
+    }
+}
+.about-postscript {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.about-bottom {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    opacity: .3;
+    width: 100%;
+    overflow: hidden;
+}
+.about-bottom-track {
+    width: 100%;
+    display: flex;
+    animation: infiniteCarousel 25s linear infinite;
+    & > span {
+        white-space: nowrap;
+    }
+}

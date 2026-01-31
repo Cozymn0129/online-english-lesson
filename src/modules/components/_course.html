@@ -1,0 +1,33 @@
+<section class="course">
+    <%- include("../modules/components/_headline.html", {
+        modifier: "headline headline-course",
+        main: "COURSE",
+        sub: "3 courses"
+    }) %>
+    <div class="course-container">
+        <ul class="course-list">
+            <li class="course-item">
+                <%- include("../components/_panel.html", {
+                    headline: "Global English Communication",
+                    desc: "Build real-world speaking and listening skills for international situations."
+                }) %>
+            </li>
+            <li class="course-item">
+                <%- include("../components/_panel.html", {
+                    headline: "Practical English for Work & Life",
+                    desc: "Learn English you can actually use in meetings, travel, and daily conversations."
+                }) %>
+            </li>
+            <li class="course-item">
+                <%- include("../components/_panel.html", {
+                    headline: "Fluency & Confidence Training",
+                    desc: "Break mental barriers and speak English smoothly and naturally."
+                }) %>
+            </li>
+        </ul>
+    </div>
+
+    <div class="course-footer">
+        <a href="" class="link-footer">Fee・Course comparison</a>
+    </div>
+</section>

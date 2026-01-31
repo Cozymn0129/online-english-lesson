@@ -1,0 +1,36 @@
+<header class="header-inner">
+    <button type="button" class="trigger">
+        <span>Triger(do it later)</span>
+    </button>
+
+    <div class="header-inner">
+        <div class="header-flex">
+            <a href="/" class="header-logo">
+                <img src="./images/logo.png" alt="Online English lesson platform Natively">
+            </a>
+
+            <nav class="nav">
+                <div class="nav-container">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">COURSES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">BLOG</a>
+                        </li>
+                    </ul>
+                    <div class="nav-contact">
+                        <%- include('../modules/components/_link.html', {
+                            modifier: "",
+                            href: "",
+                            text: "CONTACT",
+                        }) %>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

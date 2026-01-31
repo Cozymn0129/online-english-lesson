@@ -1,0 +1,21 @@
+@use "../const" as cn;
+
+.link-contact {
+    display: inline-block;
+    margin-top: 10px;
+    width: 450px;
+    background: cn.$color-accent;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 4px;
+    transition: transform .2s ease-in-out, background .2s ease-in-out;
+    & > span {
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    &:hover {
+        transform: translateY(-4px);
+        background: cn.$color-accent-light;
+    }
+}

@@ -1,0 +1,46 @@
+<section class="about">
+    <div class="about-container">
+        <%- include("../modules/components/_headline.html", {
+            "modifier": "headline",
+            "main": "CONCEPT",
+            "sub": "About Natively"
+        }) %>
+
+        <div class="about-desc">
+            <span>
+                Nowadays, the world is becoming increasingly globalised, and proficiency in English is widely regarded as an essential skill for communicating with people from all over the world.
+            </span>
+            <p>
+                At Natively, we see English not merely as a language, but as a journey of exploration.
+                Our aim is to help unlock your potential and expand what you believe is possible.
+            </p>
+            <p>
+                English may seem difficult to master—especially if your native language is linguistically distant from it.
+                However, the reality is that there are countless people who speak English fluently in <strong>every corner of the world</strong>.
+            </p>
+            <p>No matter where we come from, we all have the same opportunity to become fluent in English.</p>
+            <p>
+                At Natively, we combine cutting-edge AI tools with active learning approaches to help students learn efficiently, strategically,and with confidence.
+                Step into a brand-new world—full of discovery, growth, and opportunity.
+            </p>
+
+            <div class="about-postscript">
+                <p>
+                    ※【Request for follow-up survey】
+                    <br>
+                    To help us improve Natively, we may invite graduates to participate in a follow-up survey one year after completing the course.
+                    This survey may cover how acquired skills have been applied, or whether there have been any changes in professional circumstances.
+                    <br>
+                    Participation is entirely optional.
+                </p>
+            </div>
+        </div>
+    </div>
+        <div class="about-bottom">
+            <div class="about-bottom-track">
+                <% for(index = 0; index < 2; index++) { %>
+                    <span> International communication / Globalisation / Education / </span>
+                <% } %>
+            </div>
+        </div>
+</section>

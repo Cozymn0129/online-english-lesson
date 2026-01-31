@@ -1,0 +1,46 @@
+@use "../const" as cn;
+
+.footer {
+    width: 100%;
+    padding-bottom: 60px;
+    background: cn.$color-core;
+    color: #c8c8c8;
+}
+.footer-top-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+.footer-top-logo > img {
+    width: 250px;
+    height: auto;
+}
+.footer-top-nav {
+    display: flex;
+    flex-direction: column;
+    & > a {
+        color: #fff;
+    }
+
+}
+.footer-top-others {
+    font-size: 30px;
+    & > a {
+        color: cn.$color-light-gray;
+    }
+}
+.footer-border {
+    width: 800px;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+}
+.footer-bottom-nav {
+    margin: 20px 0 0;
+    text-align: center;
+}

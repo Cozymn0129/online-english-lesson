@@ -1,0 +1,36 @@
+@use "../const" as cn;
+
+.card {
+    width: 380px;
+    height: 410px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+.card-headline {
+    font-size: 22px;
+    margin: 15px;
+    white-space: nowrap;
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -50%;
+        height: 5px;
+        width: 5px;
+        background: cn.$color-sub-dark;
+    }
+}
+.card-image {
+    width: 100%;
+    padding: 0;
+    & > img {
+        width: 100%;
+        border: 4px solid cn.$color-gray;
+    }
+}
+.card-desc {
+    text-align: center;
+}

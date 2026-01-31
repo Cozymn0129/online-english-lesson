@@ -1,0 +1,43 @@
+@use "../const" as cn;
+
+.showcase {
+    margin-bottom: 50px;
+}
+.showcase-header-headline {
+    font-size: 40px;
+    margin: 40px;
+    color: cn.$color-sub-dark;
+}
+.showcase-list {
+    display: flex;
+    gap: 25px;
+    padding: 10px 30px;
+    overflow: scroll;
+    scrollbar-color: cn.$color-sub;
+    scrollbar-width: thin;
+}
+.showcase-card {
+    width: 600px;
+    padding: 20px 28px 50px;
+    background: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    & > img {
+        height: 350px;
+        width: 525px;
+        border-radius: 8px;
+        transition: transform .2s ease-in-out;
+    }
+    &:hover > img {
+        transform: scale(1.05);
+    }
+}
+.showcase-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: cn.$color-sub-dark;
+}
+.showcase-name {
+    font-size: 17px;
+}
