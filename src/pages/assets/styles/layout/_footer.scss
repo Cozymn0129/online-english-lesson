@@ -26,7 +26,6 @@
     & > a {
         color: #fff;
     }
-
 }
 .footer-top-others {
     font-size: 30px;
@@ -43,4 +42,8 @@
 .footer-bottom-nav {
     margin: 20px 0 0;
     text-align: center;
+    font-size: 12px;
+    & > a {
+        color: #fff;
+    }
 }

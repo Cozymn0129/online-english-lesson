@@ -98,3 +98,19 @@
         flex-shrink: 0;
     }
 }
+
+@media screen and (max-width: cn.$bp-sm) {
+    .hero-headline {
+        width: 100%;
+        margin: 100px 20px;
+    }
+    .hero-main {
+        font-size: 40px;
+    }
+    .hero-sub {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}

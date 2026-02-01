@@ -19,3 +19,9 @@
         background: cn.$color-accent-light;
     }
 }
+
+@media screen and (max-width: cn.$bp-sm) {
+    .link-contact {
+        width: 250px;
+    }
+}

@@ -74,3 +74,16 @@
     color: #fff;
 }
 
+@media screen and (max-width: cn.$bp-sm) {
+    .nav {
+        position: absolute;
+        width: 400px;
+        height: 25px;
+        z-index: 20;
+        right: 80px;
+        background: white;
+        border-radius: 74px;
+        padding: 20px;
+        box-shadow: 0 0 22px #00000026;
+    }
+}

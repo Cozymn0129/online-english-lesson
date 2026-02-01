@@ -41,3 +41,15 @@
 .showcase-name {
     font-size: 17px;
 }
+
+@media screen and (max-width: cn.$bp-sm) {
+    .showcase-list {
+        max-height: 400px;
+    }
+    .showcase-card {
+        & > img {
+            height: 250px;
+            width: auto;
+        }
+    }
+}

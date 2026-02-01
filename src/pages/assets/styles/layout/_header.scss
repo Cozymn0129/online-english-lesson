@@ -18,3 +18,13 @@
     width: 230px;
     height: auto;
 }
+
+@media screen and (max-width: cn.$bp-sm) {
+    .header-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header-logo {
+        margin-bottom: 40px;
+    }
+}

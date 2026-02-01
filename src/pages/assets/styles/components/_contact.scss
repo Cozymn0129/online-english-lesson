@@ -1,12 +1,21 @@
 @use "../const" as cn;
 
 .contact {
-    margin: 0 250px 0px;
+    width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .contact-inner {
+    width: 800px;
     height: 130px;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
+}
+
+@media screen and (max-width: cn.$bp-sm) {
+    .contact-inner {
+        width: 300px;
+    }
 }
