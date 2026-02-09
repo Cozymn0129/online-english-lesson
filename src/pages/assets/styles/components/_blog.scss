@@ -1,0 +1,28 @@
+@use "../const" as cn;
+
+.blog {
+    max-width: 700px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.blog-status {
+    display: inline-block;
+    margin: 16px 0;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #f1f3f5;
+    font-size: 14px;
+}
+
+.blog-desc {
+    color: #666;
+    margin-bottom: 32px;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}

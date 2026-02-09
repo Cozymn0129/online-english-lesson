@@ -1,0 +1,46 @@
+<section class="form">
+    <form class="form-container" action="#" method="post">
+        <h1 class="heading">Contact Form</h1>
+        <div class="name-container">
+            <input type="text" class="name" name="name" placeholder="Name" required maxlength="50">
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+        <div class="email-container">
+            <input type="email" class="email" name="email" placeholder="Email" required>
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+
+        <div class="english-level-container">
+            <select class="english" name="english" >
+                <option value="">Select your level</option>
+                <option value="Fluent">Fluent</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Beginner">Beginner</option>
+            </select>
+            <span class="help-icon">?</span>
+            <span class="hint">
+                Beginner: simple conversations<br>
+                Intermediate: daily topics<br>
+                Fluent: business & professional communication
+            </span>
+        </div>
+
+        <div class="purpose-container">
+            <input type="text" class="purpose" name="purpose" placeholder="Business, travel, etc..." maxlength="30">
+            <i class="fa-solid fa-language"></i>
+        </div>
+
+        <div class="lesson-time-container">
+            <input type="text" class="time" name="time" placeholder="Weeknights, mornings, etc..." maxlength="30">
+            <i class="fa-regular fa-clock"></i>
+        </div>
+
+        <div class="message-container">
+            <textarea class="message" name="message" placeholder="Tell us what you're looking for or any preferences for your lessons." maxlength="100"></textarea>
+            <i class="fa-regular fa-message"></i>
+        </div>
+
+        <button type="submit" class="confirm-btn">Confirm</button>
+    </form>
+</section>

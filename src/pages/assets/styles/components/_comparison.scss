@@ -1,0 +1,51 @@
+@use "../const" as cn;
+
+.comparison {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.comparison-title {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: cn.$color-sub;
+}
+.comparison-sub {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: cn.$color-sub-dark;
+}
+.comparison-table {
+    width: 100%;
+    background: #fff;
+}
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #e5e5e5;
+    padding: 16px;
+    text-align: center;
+}
+.comparison-table thead {
+    background: #f7f9fc;
+}
+.comparison-table tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+.recommended {
+    background: #eef5ff;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.badge {
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+    background: #4a7dff;
+    color: white;
+    border-radius: 999px;
+}

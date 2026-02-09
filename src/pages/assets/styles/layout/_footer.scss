@@ -2,7 +2,7 @@
 
 .footer {
     width: 100%;
-    padding-bottom: 60px;
+    padding: 10px 0 40px;
     background: cn.$color-core;
     color: #c8c8c8;
 }
@@ -17,7 +17,7 @@
     align-items: center;
 }
 .footer-top-logo > img {
-    width: 250px;
+    width: 150px;
     height: auto;
 }
 .footer-top-nav {
@@ -28,7 +28,7 @@
     }
 }
 .footer-top-others {
-    font-size: 30px;
+    font-size: 24px;
     & > a {
         color: cn.$color-light-gray;
     }

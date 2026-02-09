@@ -1,0 +1,58 @@
+@use "../const" as cn;
+
+.confirm {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirm-container {
+    padding: 0 90px 90px;
+    background: #fff;
+    max-width: 650px;
+    height: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > p {
+        font-size: 16px;
+        border: 2px solid cn.$color-gray;
+        border-radius: 8px;
+        min-width: 300px;
+        text-align: center;
+        padding: 6px 0;
+    }
+}
+.confirm-heading {
+    margin-bottom: 0;
+}
+.confirm-name,
+.confirm-email,
+.confirm-level,
+.confirm-purpose,
+.confirm-time,
+.confirm-message {
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+.confirm-form {
+    width: 100%;
+}
+.send-btn {
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+    background: cn.$color-strong;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform .2s ease-in-out, background .2s ease-in-out;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    &:hover {
+        transform: translateY(-4px);
+        background: cn.$color-lightblue;
+    }
+}

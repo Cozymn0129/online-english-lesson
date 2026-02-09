@@ -1,0 +1,53 @@
+<section class="comparison">
+    <h2 class="comparison-title">Course & Fee Comparison</h2>
+    <p class="comparison-sub">Choose the course that mathces your learning goals.</p>
+
+    <div class="comparison-table-wrapper">
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Global English</th>
+                    <th class="recommended">
+                        <span class="badge">Recommended</span>
+                        <div>Practical English</div>
+                    </th>
+                    <th>Fluency Training</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Level</td>
+                    <td>Beginner-Intermediate</td>
+                    <td>All Levels</td>
+                    <td>Intermediate+</td>
+                </tr>
+                <tr>
+                    <td>Main Focus</td>
+                    <td>Communication</td>
+                    <td>Work & Daily Life</td>
+                    <td>Speaking Confidence</td>
+                </tr>
+                <tr>
+                    <td>Lesson Style</td>
+                    <td>conversation</td>
+                    <td>Practical Situations</td>
+                    <td>Coaching</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>£49 / month</td>
+                    <td>£59 / month</td>
+                    <td>£69 / month</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <%- include("../modules/components/_link.html", {
+        modifier: "link-free-trial",
+        href: "/form.html",
+        text: "[ Start Free Trial ]"
+    }) %>
+</section>
