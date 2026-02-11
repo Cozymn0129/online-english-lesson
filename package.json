@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build",
-    "build-css": "sass src/pages/assets/styles/main.scss public/assets/styles/main.css --load-path=src/pages/assets/styles",
     "preview": "vite preview"
   },
   "devDependencies": {
